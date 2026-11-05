@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hatty Salon | Salão de beleza na Vila Lageado, São Paulo</title>
+  <meta name="description" content="Cabelo, unhas, sobrancelhas e barbearia na Vila Lageado, em São Paulo. Agende seu horário no Hatty Salon pelo WhatsApp.">
+  <link rel="canonical" href="https://{{DOMINIO}}/">
+  <meta name="theme-color" content="#0c0b09">
+  <!-- DEMO:INICIO -->
+  <meta name="robots" content="noindex,nofollow">
+  <!-- DEMO:FIM -->
+
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="32x32">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Hatty Salon">
+  <meta property="og:title" content="Hatty Salon | Salão de beleza na Vila Lageado, São Paulo">
+  <meta property="og:description" content="Cabelo, unhas, sobrancelhas e barbearia na Vila Lageado, em São Paulo. Agende seu horário no Hatty Salon pelo WhatsApp.">
+  <meta property="og:url" content="https://{{DOMINIO}}/">
+  <meta property="og:image" content="https://{{DOMINIO}}/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <link rel="stylesheet" href="assets/css/styles.css?v=202611051833">
+  <script src="assets/js/main.js?v=202611051833" defer></script>
+
+  <!-- Ajustar @type e os horários conforme o briefing (dias sem expediente: remover o bloco) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Hatty Salon",
+    "url": "https://{{DOMINIO}}/",
+    "image": "https://{{DOMINIO}}/assets/img/og-image.jpg",
+    "logo": "https://{{DOMINIO}}/assets/img/logo.webp",
+    "telephone": "+5511945390998",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Prof. Herbert Baldus, 177",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "05339-020",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ],
+    "sameAs": ["https://www.instagram.com/hattysalon/", "https://share.google/s4gjrK4L9JbriMFw6"]
+  }
+  </script>
+</head>
+<body id="topo" class="bg-fundo text-texto font-corpo antialiased">
+  <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[70] focus:bg-fundo focus:px-4 focus:py-2 focus:rounded-marca">Pular para o conteúdo</a>
+
+<!-- SECTION: header -->
+<header class="sticky top-0 z-40 bg-logo text-white">
+  <div class="container-lp flex h-[4.5rem] items-center justify-between gap-4 md:h-24">
+    <a href="#topo" class="flex shrink-0 items-center" aria-label="Hatty Salon, voltar ao início">
+      <img src="assets/img/logo.webp" alt="Hatty Salon" width="264" height="288" class="h-14 w-auto md:h-20">
+    </a>
+
+    <!-- Itens com data-secao somem sozinhos quando a seção é omitida no novo-projeto.ps1 -->
+    <nav aria-label="Principal" class="hidden lg:block">
+      <ul class="flex items-center gap-8 text-sm font-medium">
+        <li data-secao="servicos"><a href="#servicos" class="hover:text-mandala">Serviços</a></li>
+        <li data-secao="sobre"><a href="#sobre" class="hover:text-mandala">Sobre</a></li>
+        <li data-secao="galeria"><a href="#galeria" class="hover:text-mandala">Galeria</a></li>
+        <li data-secao="depoimentos"><a href="#depoimentos" class="hover:text-mandala">Depoimentos</a></li>
+        <li data-secao="localizacao"><a href="#localizacao" class="hover:text-mandala">Como chegar</a></li>
+      </ul>
+    </nav>
+
+    <div class="flex items-center gap-1 sm:gap-2">
+      <a href="https://www.instagram.com/hattysalon/" target="_blank" rel="noopener" class="icone-btn text-white hover:bg-white/10"
+         aria-label="Instagram de Hatty Salon" data-track="instagram" data-origem="header">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"
+         class="btn btn-whatsapp" aria-label="Agendar pelo WhatsApp" data-track="whatsapp" data-origem="header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+        <span class="hidden sm:inline">Agendar</span>
+      </a>
+    </div>
+  </div>
+</header>
+<!-- /SECTION: header -->
+
+<main id="conteudo">
+<!-- SECTION: hero -->
+<section id="inicio" class="overflow-hidden bg-superficie" aria-labelledby="hero-titulo">
+  <div class="container-lp grid gap-14 pt-16 pb-20 md:pt-20 lg:grid-cols-[1fr_minmax(0,26rem)] lg:items-end lg:gap-20 lg:pt-24 lg:pb-28">
+    <div class="order-2 min-w-0 lg:order-1 lg:pb-6">
+      <h1 id="hero-titulo" class="font-titulo text-[2.625rem] text-balance md:text-[3.5rem]">Cabelo bem cuidado, perto de casa.</h1>
+      <p class="mt-6 max-w-[34rem] text-texto-suave">Cabelo, unhas, sobrancelhas e barbearia no Hatty Salon, na Vila Lageado. Mande uma mensagem e escolha o melhor horário para você.</p>
+      <div class="mt-9 flex flex-wrap gap-3">
+        <a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"
+           class="btn btn-whatsapp btn-lg" data-track="whatsapp" data-origem="hero">Agendar pelo WhatsApp</a>
+        <a href="#servicos" class="btn btn-contorno btn-lg">Ver serviços</a>
+      </div>
+      <p class="mt-7 text-base text-texto-suave">Vila Lageado, São Paulo. Ter a sex, 9h às 18h; sáb, 9h às 17h.</p>
+    </div>
+
+    <!-- Arco: a meia-mandala da logo como moldura da foto (plano de design, seção 7 do briefing) -->
+    <div class="arco order-1 mx-auto mt-6 w-full max-w-[19rem] sm:max-w-[22rem] lg:order-2 lg:mx-0 lg:max-w-none">
+      <svg class="arco-mandala" viewBox="0 0 200 100" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+        <path d="M100 4c14 18 18 42 12 70H88C82 46 86 22 100 4z"/>
+        <path d="M36 30c22 2 42 18 52 44H58C44 62 37 47 36 30z"/>
+        <path d="M164 30c-22 2-42 18-52 44h30c14-12 21-27 22-44z"/>
+        <path d="M6 70c14-12 32-16 50-12l8 16H14C10 73 8 72 6 70z"/>
+        <path d="M194 70c-14-12-32-16-50-12l-8 16h50c4-1 6-2 8-4z"/>
+        <circle cx="100" cy="62" r="7"/>
+      </svg>
+      <img src="assets/img/ondas-caramelo-parede-petroleo-1600.webp"
+           srcset="assets/img/ondas-caramelo-parede-petroleo-800.webp 800w, assets/img/ondas-caramelo-parede-petroleo-1600.webp 1440w"
+           sizes="(min-width: 1024px) 26rem, 22rem"
+           width="1440" height="1800"
+           alt="Cliente de costas com cabelo longo em ondas caramelo, diante da parede azul-petróleo do salão"
+           fetchpriority="high">
+    </div>
+  </div>
+</section>
+<!-- /SECTION: hero -->
+
+<!-- SECTION: servicos -->
+<!-- Repetir o <li> por serviço. Ícone: SVG inline coerente com o segmento (trocar o círculo de exemplo). -->
+<section id="servicos" class="py-16 md:py-24" aria-labelledby="servicos-titulo">
+  <div class="container-lp">
+    <h2 id="servicos-titulo" class="font-titulo text-3xl md:text-4xl">O que fazemos</h2>
+    <p class="mt-4 max-w-prose text-texto-suave">Cabelo, unhas, sobrancelhas e barbearia no mesmo lugar. Para valores e horários disponíveis, é só perguntar pelo WhatsApp.</p>
+
+    <ul class="mt-12 grid gap-x-10 gap-y-12 md:grid-cols-2 lg:grid-cols-4">
+      <li class="flex flex-col border-t-2 border-marca pt-6">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-marca" aria-hidden="true"><path d="M3 8c3-3 6 3 9 0s6 3 9 0M3 13c3-3 6 3 9 0s6 3 9 0M3 18c3-3 6 3 9 0s6 3 9 0"/></svg>
+        <h3 class="mt-4 font-titulo text-2xl">Cabelo</h3>
+        <p class="mt-2 grow text-texto-suave">Corte, coloração, mechas, escova e ondas, do acerto das pontas à mudança de visual.</p>
+        <a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Vi%20o%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20cabelo." target="_blank" rel="noopener"
+           class="mt-5 self-start font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
+           data-track="whatsapp" data-origem="servico-1">Perguntar sobre cabelo</a>
+      </li>
+      <li class="flex flex-col border-t-2 border-marca pt-6">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-marca" aria-hidden="true"><path d="M9 21V11a3 3 0 0 1 6 0v10z"/><path d="M10.5 6.5h3V3h-3z"/><path d="M9 15h6"/></svg>
+        <h3 class="mt-4 font-titulo text-2xl">Unhas</h3>
+        <p class="mt-2 grow text-texto-suave">Manicure e pedicure para manter as unhas das mãos e dos pés em dia.</p>
+        <a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Vi%20o%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20unhas." target="_blank" rel="noopener"
+           class="mt-5 self-start font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
+           data-track="whatsapp" data-origem="servico-2">Perguntar sobre unhas</a>
+      </li>
+      <li class="flex flex-col border-t-2 border-marca pt-6">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-marca" aria-hidden="true"><path d="M3 10c3-4.5 11-5.5 18-1.5"/><path d="M5 16.5c3-3 11-3 14 0c-3 3-11 3-14 0z"/><circle cx="12" cy="16.5" r="1.6"/></svg>
+        <h3 class="mt-4 font-titulo text-2xl">Sobrancelhas</h3>
+        <p class="mt-2 grow text-texto-suave">Design de sobrancelhas para valorizar o desenho natural do rosto.</p>
+        <a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Vi%20o%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20sobrancelhas." target="_blank" rel="noopener"
+           class="mt-5 self-start font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
+           data-track="whatsapp" data-origem="servico-3">Perguntar sobre sobrancelhas</a>
+      </li>
+      <li class="flex flex-col border-t-2 border-marca pt-6">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-marca" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M8.1 8.1L20 20M8.1 15.9L20 4"/></svg>
+        <h3 class="mt-4 font-titulo text-2xl">Barbearia</h3>
+        <p class="mt-2 grow text-texto-suave">Corte masculino e barba, no mesmo salão, com horário marcado.</p>
+        <a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Vi%20o%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20barbearia." target="_blank" rel="noopener"
+           class="mt-5 self-start font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
+           data-track="whatsapp" data-origem="servico-4">Perguntar sobre barbearia</a>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- /SECTION: servicos -->
+
+<!-- SECTION: sobre -->
+<!-- Opcional: omitir com novo-projeto.ps1 -Omitir 04 -->
+<section id="sobre" class="bg-superficie py-16 md:py-24" aria-labelledby="sobre-titulo">
+  <div class="container-lp grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
+    <img src="assets/img/mechas-loiras-repicado.webp" width="1200" height="1499" alt="Cliente sorrindo com mechas loiras e corte repicado, na bancada de madeira do salão"
+         loading="lazy" decoding="async" class="aspect-[4/5] w-full max-w-md rounded-marca object-cover lg:justify-self-center">
+    <div>
+      <h2 id="sobre-titulo" class="font-titulo text-3xl md:text-4xl">Um salão de bairro na Vila Lageado</h2>
+      <p class="mt-5 max-w-prose text-lg text-texto-suave">O Hatty Salon fica na Rua Professor Herbert Baldus, 177. Quem passa por aqui costuma comentar as mesmas coisas nas avaliações do Google: atendimento atencioso, espaço limpo e profissionais que cuidam de cada cliente com calma.</p>
+      <ul class="mt-8 space-y-3">
+        <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Atendimento atencioso, elogiado nas avaliações do Google</span></li>
+        <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Espaço limpo e organizado</span></li>
+        <li class="flex gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mt-0.5 shrink-0 text-marca" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Agendamento direto pelo WhatsApp, sem aplicativo</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- /SECTION: sobre -->
+
+<!-- SECTION: galeria -->
+<!-- Fotos do Instagram só podem aparecer nesta seção. Repetir o <li> por foto.
+     Com post original: envolver a <figure> em <a href="URL_DO_POST" target="_blank" rel="noopener" data-track="instagram" data-origem="galeria">.
+     Grade fixa, sem rolagem horizontal. Ajustar as colunas do <ul> à quantidade de fotos (tabela em _docs/componentes-template.md):
+       3 fotos → grid-cols-1 sm:grid-cols-3     4 fotos → grid-cols-2 lg:grid-cols-4
+       6 fotos → grid-cols-2 sm:grid-cols-3     8 fotos → grid-cols-2 lg:grid-cols-4     9 fotos → grid-cols-2 sm:grid-cols-3
+     Mais de 9 fotos: usar a variante "Ver mais" (bloco comentado no fim desta seção). -->
+<section id="galeria" class="py-16 md:py-24" aria-labelledby="galeria-titulo">
+  <div class="container-lp">
+    <h2 id="galeria-titulo" class="font-titulo text-3xl md:text-4xl">Do nosso Instagram</h2>
+    <p class="mt-4 max-w-prose text-texto-suave">Alguns resultados publicados no @hattysalon.</p>
+
+    <ul class="mt-10 grid grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3" aria-label="Fotos de trabalhos realizados">
+      <li>
+        <figure>
+          <img src="assets/img/ondas-mel-longas-600.webp" srcset="assets/img/ondas-mel-longas-600.webp 600w, assets/img/ondas-mel-longas.webp 1200w"
+               sizes="(min-width: 1152px) 24rem, (min-width: 640px) 33vw, 50vw"
+               width="1200" height="1500" alt="Cabelo longo em ondas, loiro mel, visto de costas"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-texto-suave">Ondas mel</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/acobreado-escova-modelada-600.webp" srcset="assets/img/acobreado-escova-modelada-600.webp 600w, assets/img/acobreado-escova-modelada.webp 1080w"
+               sizes="(min-width: 1152px) 24rem, (min-width: 640px) 33vw, 50vw"
+               width="1080" height="1349" alt="Cabelo acobreado com escova modelada e pontas viradas, visto de costas"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-texto-suave">Acobreado com escova modelada</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/iluminado-mel-ondas-600.webp" srcset="assets/img/iluminado-mel-ondas-600.webp 600w, assets/img/iluminado-mel-ondas.webp 1200w"
+               sizes="(min-width: 1152px) 24rem, (min-width: 640px) 33vw, 50vw"
+               width="1200" height="1500" alt="Cabelo castanho iluminado com mechas mel e ondas soltas"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-texto-suave">Iluminado mel</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/castanho-acobreado-cachos-600.webp" srcset="assets/img/castanho-acobreado-cachos-600.webp 600w, assets/img/castanho-acobreado-cachos.webp 1200w"
+               sizes="(min-width: 1152px) 24rem, (min-width: 640px) 33vw, 50vw"
+               width="1200" height="1496" alt="Cabelo castanho acobreado com cachos modelados, visto de costas na rua"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-texto-suave">Castanho acobreado com cachos</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/mechas-mel-ondas-600.webp" srcset="assets/img/mechas-mel-ondas-600.webp 600w, assets/img/mechas-mel-ondas.webp 1200w"
+               sizes="(min-width: 1152px) 24rem, (min-width: 640px) 33vw, 50vw"
+               width="1200" height="1500" alt="Cabelo médio com mechas mel e ondas, visto de costas na cadeira do salão"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-texto-suave">Mechas mel</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/escova-modelada-castanho-escuro-600.webp" srcset="assets/img/escova-modelada-castanho-escuro-600.webp 600w, assets/img/escova-modelada-castanho-escuro.webp 1200w"
+               sizes="(min-width: 1152px) 24rem, (min-width: 640px) 33vw, 50vw"
+               width="1200" height="1500" alt="Cabelo castanho escuro na altura dos ombros com escova modelada"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-texto-suave">Escova modelada</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/ondas-loiras-600.webp" srcset="assets/img/ondas-loiras-600.webp 600w, assets/img/ondas-loiras.webp 1200w"
+               sizes="(min-width: 1152px) 24rem, (min-width: 640px) 33vw, 50vw"
+               width="1200" height="1500" alt="Cliente de costas com as mãos no cabelo loiro em ondas"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-texto-suave">Ondas loiras</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/morena-iluminada-ondas-600.webp" srcset="assets/img/morena-iluminada-ondas-600.webp 600w, assets/img/morena-iluminada-ondas.webp 1200w"
+               sizes="(min-width: 1152px) 24rem, (min-width: 640px) 33vw, 50vw"
+               width="1200" height="1500" alt="Cabelo morena iluminada com ondas, visto de costas"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-texto-suave">Morena iluminada</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="assets/img/maquiagem-e-ondas-600.webp" srcset="assets/img/maquiagem-e-ondas-600.webp 600w, assets/img/maquiagem-e-ondas.webp 1124w"
+               sizes="(min-width: 1152px) 24rem, (min-width: 640px) 33vw, 50vw"
+               width="1124" height="1112" alt="Cliente sorrindo com maquiagem e cabelo iluminado em ondas"
+               loading="lazy" decoding="async" class="aspect-[4/5] w-full rounded-marca object-cover">
+          <figcaption class="mt-2 text-sm text-texto-suave">Maquiagem e ondas</figcaption>
+        </figure>
+      </li>
+    </ul>
+
+    <!-- Variante "Ver mais" (mais de 9 fotos): dar id e data-galeria-grade ao <ul> e descomentar o botão.
+         O main.js mostra as 6 primeiras e o botão libera as demais; sem JS a grade aparece completa.
+         <ul id="galeria-grade" data-galeria-grade class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3" ...>
+         <div class="mt-8 text-center">
+           <button type="button" hidden data-galeria-mais="galeria-grade" class="btn-claro">Ver mais fotos</button>
+         </div> -->
+  </div>
+</section>
+<!-- /SECTION: galeria -->
+
+<!-- SECTION: depoimentos -->
+<!-- Somente avaliações reais do Google do próprio negócio, texto sem edição (origem registrada no briefing.md).
+     Nunca inventar. Sem avaliações: omitir com -Omitir 06.
+     Repetir o <li> por depoimento; ajustar a nota (estrelas preenchidas) e o aria-label. -->
+<section id="depoimentos" class="bg-superficie py-16 md:py-24" aria-labelledby="depoimentos-titulo">
+  <div class="container-lp">
+    <h2 id="depoimentos-titulo" class="font-titulo text-3xl md:text-4xl">Quem já passou pela Hatty</h2>
+    <p class="mt-4 text-texto-suave">Nota 4,8 no Google, com 30 avaliações.</p>
+
+    <ul class="mt-12 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+      <li>
+        <figure class="flex h-full flex-col">
+          <div class="flex gap-0.5 text-acento" role="img" aria-label="Nota 5 de 5">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+          </div>
+          <blockquote class="mt-4 grow font-titulo text-xl leading-snug">
+            <p>Corto meu cabelo com Tyrone que além de bom senso profissional e capacidade de trabalho tem muita educação e simpatia.</p>
+          </blockquote>
+          <figcaption class="mt-4 font-semibold">Mario Augusto O.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="flex h-full flex-col">
+          <div class="flex gap-0.5 text-acento" role="img" aria-label="Nota 5 de 5">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+          </div>
+          <blockquote class="mt-4 grow font-titulo text-xl leading-snug">
+            <p>Excelente ambiente e profissionais qualificados .<br>
+            Todas as vezes que vou me cuidar, me sinto renovada 😄<br>
+            Amo estar lá❤️</p>
+          </blockquote>
+          <figcaption class="mt-4 font-semibold">Rosana Martins N.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="flex h-full flex-col">
+          <div class="flex gap-0.5 text-acento" role="img" aria-label="Nota 5 de 5">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+          </div>
+          <blockquote class="mt-4 grow font-titulo text-xl leading-snug">
+            <p>Gostei muito o lugar. É muito limpo, com preço bom e o cabeleireiro é ótimo. Recomendo!</p>
+          </blockquote>
+          <figcaption class="mt-4 font-semibold">Stefan</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="flex h-full flex-col">
+          <div class="flex gap-0.5 text-acento" role="img" aria-label="Nota 5 de 5">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+          </div>
+          <blockquote class="mt-4 grow font-titulo text-xl leading-snug">
+            <p>Ótima experiência, todos muito educados e a Néia é uma profissional excelente!!</p>
+          </blockquote>
+          <figcaption class="mt-4 font-semibold">Beatriz Bueno L.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="flex h-full flex-col">
+          <div class="flex gap-0.5 text-acento" role="img" aria-label="Nota 5 de 5">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+          </div>
+          <blockquote class="mt-4 grow font-titulo text-xl leading-snug">
+            <p>Adoro esse salão! Faço as sombrancelhas, corto meu cabelo...A dona é ótima!</p>
+          </blockquote>
+          <figcaption class="mt-4 font-semibold">Jaimar M.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure class="flex h-full flex-col">
+          <div class="flex gap-0.5 text-acento" role="img" aria-label="Nota 5 de 5">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+          </div>
+          <blockquote class="mt-4 grow font-titulo text-xl leading-snug">
+            <p>O melhor da região</p>
+          </blockquote>
+          <figcaption class="mt-4 font-semibold">Pamella F.</figcaption>
+        </figure>
+      </li>
+    </ul>
+
+    <a href="https://share.google/s4gjrK4L9JbriMFw6" target="_blank" rel="noopener"
+       class="mt-12 inline-block font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
+       data-track="avaliar-google" data-origem="depoimentos">Ver todas as avaliações no Google</a>
+  </div>
+</section>
+<!-- /SECTION: depoimentos -->
+
+<!-- SECTION: cta-intermediario -->
+<section class="bg-marca py-14 text-sobre-marca md:py-20" aria-labelledby="cta-meio-titulo">
+  <div class="container-lp flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
+    <div>
+      <h2 id="cta-meio-titulo" class="font-titulo text-3xl md:text-4xl">Marque seu horário</h2>
+      <p class="mt-3 max-w-prose opacity-90">Fale com o salão pelo WhatsApp e escolha o dia. Atendemos de terça a sábado.</p>
+    </div>
+    <a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"
+       class="btn btn-claro btn-lg shrink-0" data-track="whatsapp" data-origem="cta-meio">Agendar pelo WhatsApp</a>
+  </div>
+</section>
+<!-- /SECTION: cta-intermediario -->
+
+<!-- SECTION: instagram -->
+<section class="bg-superficie py-14 md:py-20" aria-labelledby="instagram-titulo">
+  <div class="container-lp flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
+    <div>
+      <h2 id="instagram-titulo" class="font-titulo text-3xl md:text-4xl">Acompanhe no Instagram</h2>
+      <p class="mt-3 max-w-prose text-texto-suave">Veja mais trabalhos do salão no @hattysalon.</p>
+    </div>
+    <a href="https://www.instagram.com/hattysalon/" target="_blank" rel="noopener" class="btn btn-marca btn-lg shrink-0"
+       data-track="instagram" data-origem="secao-instagram">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      Siga @hattysalon no Instagram
+    </a>
+  </div>
+</section>
+<!-- /SECTION: instagram -->
+
+<!-- SECTION: localizacao -->
+<!-- (a) mapa + endereço + horário + "Como chegar" é obrigatório;
+     (b) bloco "Avalie-nos no Google" é OPCIONAL: sem o link de avaliação do cliente, apagar o bloco (b) inteiro.
+     Embed: Google Maps → Compartilhar → Incorporar um mapa → copiar só a URL do src. -->
+<section id="localizacao" class="py-16 md:py-24" aria-labelledby="localizacao-titulo">
+  <div class="container-lp">
+    <h2 id="localizacao-titulo" class="font-titulo text-3xl md:text-4xl">Onde estamos</h2>
+
+    <!-- (a) Mapa e informações -->
+    <div class="mt-10 grid gap-8 lg:grid-cols-5">
+      <div class="lg:col-span-2">
+        <address class="not-italic">
+          <p class="text-lg font-semibold">Hatty Salon</p>
+          <p class="mt-1 text-texto-suave">R. Prof. Herbert Baldus, 177 - Vila Lageado, São Paulo - SP, 05339-020</p>
+        </address>
+
+        <h3 class="mt-8 font-semibold">Horário de funcionamento</h3>
+        <dl class="mt-3 grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-texto-suave">
+          <dt>Segunda</dt><dd>Fechado</dd>
+          <dt>Terça a sexta</dt><dd>09:00 às 18:00</dd>
+          <dt>Sábado</dt><dd>09:00 às 17:00</dd>
+          <dt>Domingo</dt><dd>Fechado</dd>
+        </dl>
+
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="https://share.google/s4gjrK4L9JbriMFw6" target="_blank" rel="noopener" class="btn btn-contorno"
+             data-track="como-chegar" data-origem="localizacao">Como chegar</a>
+          <a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Gostaria%20de%20confirmar%20o%20endere%C3%A7o%20e%20o%20hor%C3%A1rio." target="_blank" rel="noopener"
+             class="btn btn-whatsapp" data-track="whatsapp" data-origem="localizacao">Falar no WhatsApp</a>
+        </div>
+      </div>
+
+      <iframe src="https://www.google.com/maps?q=R.+Prof.+Herbert+Baldus,+177+-+Vila+Lageado,+S%C3%A3o+Paulo+-+SP,+05339-020&amp;output=embed"
+              title="Mapa com a localização de Hatty Salon"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+              class="h-80 w-full rounded-marca border-0 lg:col-span-3 lg:h-full lg:min-h-96"></iframe>
+    </div>
+  </div>
+</section>
+<!-- /SECTION: localizacao -->
+</main>
+
+<!-- SECTION: footer -->
+<footer class="bg-logo pt-12 pb-28 text-base text-white/85 md:pb-10">
+  <div class="container-lp grid gap-10 md:grid-cols-3">
+    <div>
+      <img src="assets/img/logo.webp" alt="Hatty Salon" width="264" height="288" loading="lazy" class="-ml-1.5 h-24 w-auto">
+      <address class="mt-4 not-italic text-white/75">R. Prof. Herbert Baldus, 177 - Vila Lageado, São Paulo - SP, 05339-020</address>
+      <p class="mt-2 text-white/75">Ter a sex, 9h às 18h; sáb, 9h às 17h.</p>
+    </div>
+
+    <div>
+      <h2 class="font-semibold">Contato</h2>
+      <ul class="mt-3 space-y-2">
+        <li><a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"
+               class="hover:text-mandala" data-track="whatsapp" data-origem="footer">WhatsApp (11) 94539-0998</a></li>
+        <li><a href="https://www.instagram.com/hattysalon/" target="_blank" rel="noopener" class="hover:text-mandala"
+               data-track="instagram" data-origem="footer">Instagram @hattysalon</a></li>
+        <li><a href="https://share.google/s4gjrK4L9JbriMFw6" target="_blank" rel="noopener" class="hover:text-mandala"
+               data-track="como-chegar" data-origem="footer">Ver no Google Maps</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="font-semibold">Informações</h2>
+      <ul class="mt-3 space-y-2">
+        <li><a href="politica-de-privacidade.html" class="hover:text-mandala">Política de Privacidade</a></li>
+        <li><button type="button" class="hover:text-mandala" data-abrir-consentimento>Preferências de cookies</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-lp mt-10 flex flex-col gap-2 border-t border-white/15 pt-6 text-white/75 md:flex-row md:justify-between">
+    <p>© 2026 Hatty Salon. Todos os direitos reservados.</p>
+    <p>Desenvolvido por <a href="https://underlinelab.com.br" target="_blank" rel="noopener" class="font-medium text-white underline underline-offset-4 hover:text-mandala">underlinelab.com.br</a></p>
+  </div>
+</footer>
+<!-- /SECTION: footer -->
+
+<!-- SECTION: whatsapp-flutuante -->
+<a href="https://wa.me/5511945390998?text=Ol%C3%A1%21%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"
+   class="wa-flutuante" aria-label="Conversar no WhatsApp" data-track="whatsapp" data-origem="flutuante">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
+<!-- /SECTION: whatsapp-flutuante -->
+
+<!-- SECTION: consentimento -->
+<!-- Só aparece quando há ga4Id ou metaPixelId no CONFIG do main.js -->
+<div id="consentimento" class="consentimento" role="region" aria-label="Aviso de cookies" hidden>
+  <div class="container-lp flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+    <p class="max-w-prose text-sm">
+      Usamos cookies para medir as visitas e o resultado dos nossos anúncios. O site funciona normalmente se você recusar.
+      <a href="politica-de-privacidade.html" class="underline underline-offset-4">Política de Privacidade</a>
+    </p>
+    <div class="flex shrink-0 gap-3">
+      <button type="button" class="btn btn-contorno" data-consentimento="recusar">Recusar</button>
+      <button type="button" class="btn btn-marca" data-consentimento="aceitar">Aceitar</button>
+    </div>
+  </div>
+</div>
+<!-- /SECTION: consentimento -->
+</body>
+</html>
