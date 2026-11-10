@@ -1,10 +1,10 @@
 # Hatty Salon
 
-> Salão de beleza em R. Prof. Herbert Baldus, 177 - Vila Lageado, São Paulo - SP, 05339-020. Cabelo, unhas, sobrancelhas e barbearia. Atendimento pelo WhatsApp (11) 94539-0998.
+> Salão de beleza em R. Prof. Herbert Baldus, 177 - Vila São Francisco, São Paulo - SP, 05339-020. Cabelo, unhas, sobrancelhas e barbearia. Atendimento pelo WhatsApp (11) 94539-0998.
 
 ## Dados do negócio
 
-- Endereço: R. Prof. Herbert Baldus, 177 - Vila Lageado, São Paulo - SP, 05339-020
+- Endereço: R. Prof. Herbert Baldus, 177 - Vila São Francisco, São Paulo - SP, 05339-020
 - Horário: Ter a sex, 9h às 18h; sáb, 9h às 17h. Fechado aos domingos e segundas.
 - WhatsApp: (11) 94539-0998 (https://wa.me/5511945390998)
 - Instagram: https://www.instagram.com/hattysalon/
